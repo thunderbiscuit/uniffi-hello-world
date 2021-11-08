@@ -1,0 +1,12 @@
+[package]
+crate-type = ["cdylib"]
+name = "math"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+uniffi = "0.14.1"
+uniffi_macros = "0.14.1"
+
+[build-dependencies]
+uniffi_build = "0.14.1"
